@@ -87,5 +87,5 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://github.com/60noy/FCC-MarkdownPreviewer"
+  "homepage": "https://60noy.github.io/FCC-MarkdownPreviewer"
 }
