@@ -15,7 +15,7 @@ export default class TextBox extends React.Component {
 	}
   render() {
     return (
-      	<textarea className={style.textBox} rows="40" cols="50" onChange={this.handleChange}>{this.props.text}</textarea>
+      	<textarea className={style.textBox} value={this.props.text} rows="40" cols="50" onChange={this.handleChange}/>
     );
   }
 }
